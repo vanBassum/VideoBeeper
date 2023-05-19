@@ -15,4 +15,5 @@ namespace Beeper
         [Description("Volume of the beep.")]
         public float Gain { get; set; } = 1f;
     }
+
 }

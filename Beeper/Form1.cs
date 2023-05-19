@@ -28,6 +28,7 @@ namespace Beeper
         {
             LoadSettings();
             listBox1.DataSource = items;
+            this.Text = $"Video beeper {AppVersion.TAG}";
         }
 
         private async void button1_Click(object sender, EventArgs e)
